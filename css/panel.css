@@ -1,0 +1,475 @@
+@import url('global.css');
+
+body
+{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    height: 100vh;
+    overflow:hidden;
+}
+
+.srv_panel
+{
+    width: 90%;
+    height: 80%;
+    padding: 4%;
+    background-color: white;
+    border-radius: 12px;
+}
+
+.hist_cont
+{
+    width: 100%;
+    height: 100%;
+    overflow-y: auto;
+}
+
+.hist_panel
+{
+    width: 90%;
+    height: 80%;
+    padding: 4%;
+    background-color: white;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+}
+
+.prof_submit
+{
+    background-color: #242668;
+    color: white;
+    border-style: none;
+    padding: 1.5%;
+    width: 10%;
+    margin: 0 2% 0 auto;
+    cursor: pointer;
+}
+
+.prof_lbl
+{
+    white-space: nowrap;
+    font-size: medium;
+}
+
+.prof_inptxt
+{
+    width: 100%;
+    margin: 0 2%;
+    font-size: medium;
+}
+
+.prof_fl_group
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 1% 0;
+}
+
+.prof_img
+{
+    width: 20%;
+    margin: 2% auto;
+}
+
+.prof_cont
+{
+    width: 90%;
+    height: 100%;
+    background-color: white;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    padding: 4%;
+}
+
+.appn_submit
+{
+    background-color: #242668;
+    color: white;
+    border-style: none;
+    width: 30%;
+    padding: 3% 2%;
+    margin: 10% auto;
+    cursor: pointer;
+}
+.appn_submit_a
+{
+    background-color: #242668;
+    color: white;
+    border-style: none;
+    width: 30%;
+    padding: 3% 2%;
+    margin: 10% auto;
+    cursor: pointer;
+    float: left;
+}
+.appn_drop
+{
+    border-style: solid;
+    border-color: #8f8f9d;
+    background-color: rgba(0, 0, 0, 0);
+    border-width: 1px;
+    border-radius: 2px;
+}
+
+.appn_item
+{
+    margin-left: 14%;
+    margin-top: 4%;
+}
+
+.appn_inp_box
+{
+    padding: 2%;
+    font-size: medium;
+}
+
+.appn_panel_cont
+{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    padding: 2%;
+}
+
+.appn_txt
+{
+    font-weight: bold;
+    margin-left: 10%;
+}
+
+.appn_left
+{
+
+}
+
+.appn_right
+{
+
+}
+
+.appn_panel
+{
+    background-color: white;
+    width: 95%;
+    height: 95%;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: row;
+}
+
+.calen_table
+{
+    margin: 2% 4%;
+    text-align: center;
+    color: gray;
+}
+
+.icb_mesg
+{
+    background-image: url('../res/message.png');
+}
+
+.icb_mail
+{
+    background-image: url('../res/email.png');
+}
+
+.icb_tele
+{
+    background-image: url('../res/telephone.png');
+}
+
+.ic_btn
+{
+    width: 10%;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    border-radius: 50%;
+    border-style: solid;
+}
+
+.info_contact_group
+{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 12%;
+}
+
+.sidebar_container
+{
+    background-color: white;
+    width: 100%;
+    height: 40%;
+    margin-top: 8%;
+    border-radius: 12px;
+}
+
+.info_type
+{
+    margin: 0;
+    color: gray;
+    font-size: small;
+}
+
+.info_name
+{
+    margin: 0;
+    font-weight: bold;
+}
+
+.info_sub
+{
+    margin-left: 4%;
+}
+
+.info_img
+{
+    width: 20%;
+}
+
+.info_g1
+{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 4% 8%;
+}
+
+.calen_now
+{
+    background-color: #e757f9;
+    color: white;
+    border-radius: 12px;
+}
+
+.calen_display
+{
+    font-size: small;
+    color: gray;
+}
+
+.calen_text
+{
+    font-weight: bold;
+}
+
+.calen_g1
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 90%;
+    margin: 2% auto;
+    align-items: center;
+}
+
+.calendar_container
+{
+    display: flex;
+    flex-direction: column;
+}
+
+.info_container
+{
+    display: flex;
+    flex-direction: column;
+}
+
+.dast_table_container
+{
+    overflow-y: auto;
+    width: 100%;
+    height: 100%;
+}
+
+.dash_table
+{
+    margin-left: 2%;
+}
+
+.dash_table p
+{
+    margin-left: 2%;
+}
+
+.dash_cstm_img
+{
+    width:100%;
+}
+
+.dash_customer_txt
+{
+    margin-left: 2%;
+    font-size: large;
+    font-weight: bold;
+}
+
+.dash_customers
+{
+    width: 100%;
+    background-color: #fff;
+    height: 60%;
+    margin-top: 2%;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+}
+
+.dash_count_text
+{
+    margin-left: 4%;
+}
+
+.dash_greet_text
+{
+    margin-left: 4%;
+    font-weight: bold;
+    font-size: large;
+}
+
+.dash_greet
+{
+    background-image: url('../res/acmain.png');
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 100%;
+    height: 30%;
+    background-color: #80c2d0;
+    border-radius: 12px;
+}
+
+.panel_view
+{
+    width: 100%;
+    height: 100%;
+    display: none;
+    flex-direction: column;
+}
+
+.panel_indicator
+{
+    font-weight: bolder;
+    font-size: 200%;
+}
+
+.sb_profile_img
+{
+    width: 20%;
+    margin-left: 4%;
+}
+
+.sb_profile_txt
+{
+    font-weight: bold;
+}
+
+.sb_profile
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    align-items: center;
+}
+
+.panel_sidebar
+{
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    margin: auto 2%;
+    height: 95%;
+}
+
+.panel_content
+{
+    width: 54%;
+    display: flex;
+    flex-direction: column;
+    height: 95%;
+}
+
+.opt_txt_nav
+{
+    margin: 0 0 0 20%;
+    font-size: larger;
+}
+
+.opt_nav
+{
+    width: 80%;
+    margin: 1% auto;
+    padding: 4%;
+    border-radius: 12px;
+    cursor: pointer;
+    color: white;
+    font-size: 80%;
+}
+
+.opt_nav:hover, .nav_selected
+{
+    background-color: #cde4ec;
+    color: black;
+}
+
+.logo_txt_nav
+{
+    margin-left: 4%;
+    font-weight: bold;
+}
+
+.logo_img_nav
+{
+    width: 22%;
+}
+
+.logo_nav
+{
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    background-color: #cff0f7;
+    margin: 5% auto;
+    border-radius: 12px;
+    padding: 2%;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 2px 2px 4px;
+}
+
+.panel_img
+{
+    width: 100%;
+    margin-top: -50%;
+}
+
+.nav_container
+{
+    width: 100%;
+    height: 95%;
+    background-color: #34b1c9;
+    border-radius: 12px;
+    padding: 0;
+}
+
+.panel_nav
+{
+    display: flex;
+    flex-direction: column;
+    width: 18%;
+    height: 95%;
+    margin: auto 2%;
+    padding: 0;
+}

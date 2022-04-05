@@ -1,0 +1,4 @@
+CREATE VIEW users_processed AS SELECT users.*, CONCAT(users.firstname, ' ', users.lastname) AS 'full_name', user_type.name AS 'type_name' FROM users INNER JOIN user_type ON users.type = user_type.id;
+
+CREATE VIEW appointments_processed AS SELECT appointments.*, service_types.name AS "service_type_name", payment_modes.name AS "payment_method_name" FROM appointments INNER JOIN service_types ON appointments.service_type = service_types.id INNER JOIN payment_modes ON appointments.payment_method = payment_modes.id;
+

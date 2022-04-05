@@ -1,0 +1,301 @@
+@import url('global.css');
+
+body
+{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+.login_panel_btn
+{
+    background-color: #04035f;
+    border-style: none;
+    color: white;
+    width: 40%;
+    padding: 4%;
+    font-weight: bold;
+    margin: 10% auto;
+    cursor: pointer;
+    text-align: center;
+}
+
+
+.forgot_pass
+{
+    text-align: right;
+    color: #999;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.input_box
+{
+    border-style: none;
+    border-bottom-style: none;
+    border-bottom-style: solid;
+    background-color: rgba(0,0,0,0);
+    margin: 0 auto;
+    width: 100%;
+    font-size: larger;
+    outline: none;
+    border-color: #b7b7b7;
+    border-width: 2px;
+    margin-top: 10%;
+}
+
+.signup_btn
+{
+    width: 30%;
+    margin: 0 auto;
+    color: black;
+    background-color: #f5fcf7;
+    border-style: none;
+    border-radius: 25% / 75%;
+    padding: 2%;
+    font-weight: bold;
+    cursor:pointer;
+}
+
+.login_panel
+{
+    background-image: url('../res/login_bg.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: auto;
+    width: 20%;
+    height: 80%;
+    background-color: white;
+    border-radius: 5%;
+    display: flex;
+    flex-direction: column;
+    padding: 2% 8%;
+}
+
+.clsbttn{
+    position: absolute;
+    right: 37%;
+    top: 10%;
+}
+
+.login_cover
+{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.4);
+    position: fixed;
+    z-index: 1;
+    display: flex;
+    display: none;
+}
+
+.cg_demo
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.cg_icon
+{
+    margin: auto 0 auto 0;
+    width: 10%;
+    padding:2%;
+}
+
+.cg_sub
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.contact_group
+{
+    display: flex;
+    flex-direction: column;
+}
+
+.ab_info_logo
+{
+    width: 50%;
+    margin: auto;
+}
+
+.ab_info_sub_bel
+{
+    /* background-color: #81ecff; */
+}
+
+.ab_info_sub
+{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+.ab_info
+{
+    display: flex;
+    flex-direction: row;
+}
+
+.about_group
+{
+    display: flex;
+    flex-direction: column;
+}
+
+.rg_demo_img
+{
+    border-style: solid;
+    border-color: #a0d4df;
+    border-width: 8px;
+    box-shadow: 4px 4px 10px;
+    height: 60%;
+}
+
+.rg_serv
+{
+    display: flex;
+    flex-direction: column;
+}
+
+.rg_serv_img
+{
+    margin: auto;
+    width: 25%;
+    background-color: #7debfc;
+    padding: 1%;
+    border-radius: 50%;
+    border-color: black;
+    border-width: 1px;
+    border-style: solid;
+}
+
+.rg_serv_txt
+{
+    color: #082334;
+    text-align: center;
+}
+
+.hori_demo
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 1% auto;
+    width: 90%;
+}
+
+.txt_main
+{
+    color: #172a4b;
+    text-align: center;
+    font-size: xx-large;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+
+.txt_sub
+{
+    text-align: center;
+    margin-top: 0.5%;
+    color: #1f4049;
+    font-weight: bold;
+}
+
+.repair_group
+{
+    display: flex;
+    flex-direction: column;
+}
+
+.login_btn
+{
+    background-color: #040263;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    padding: 2% 8%;
+    margin: 0 auto;
+    cursor:pointer;
+}
+
+.home_group
+{
+    padding-left: 8% !important;
+    display: flex;
+    flex-direction: row;
+}
+
+.view_group
+{
+    height: 100vh;
+    width: 100vw;
+    margin: 0;
+    padding: 0;
+}
+
+.logo_image
+{
+    height: 100%;
+}
+
+.logo_panel
+{
+    display: flex;
+}
+
+.info_img
+{
+    width: 60%;
+    margin: auto;
+}
+
+.top_nav_bar
+{
+    width: 98%;
+    padding: 2%;
+    height: 12%;
+    display: flex;
+    position: fixed;
+    padding-left: 8%;
+    background-image: url('../res/bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    /* box-shadow: 0px 0px 6px; */
+}
+
+.top_nav_bar a
+{
+    color: #4a5c78;
+    text-decoration: none;
+    font-size: x-large;
+    margin: auto 0 auto 8%;
+}
+
+.info_group
+{
+    margin: auto 0 auto 0;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.info_panel
+{
+    display: flex;
+    flex-direction: column;
+}
+
+.logo_text
+{
+    color: #00055c;
+    font-size: 4rem;
+    font-weight: bolder;
+    margin-bottom: 0;
+}
